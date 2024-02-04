@@ -1,9 +1,11 @@
 package com.demo.calculator;
 
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.Test;
 
-public class CalculatorTest {
+@SpringBootTest
+public class CalculatorTests {
     private Calculator calculator = new Calculator();
 
     @Test
